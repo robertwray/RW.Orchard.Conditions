@@ -1,0 +1,19 @@
+﻿Name: RW.Orchard.Conditions
+AntiForgery: enabled
+Author: Robert Wray
+Website: http://robertwray.co.uk/
+Version: 1.0.1
+OrchardVersion: 1.10.0
+Description: This module contains new conditions that can be used within Orchard
+Category: Scripting
+Features:
+    RW.Orchard.Conditions.Tag:
+        Name: RW.Orchard.Conditions.Tag
+        Description: Adds a condition to Orchard that allows checking against tags
+        Category: Scripting
+        Dependencies: Orchard.Conditions, Orchard.Tags
+	RW.Orchard.Conditions.ContentId:
+		Name: RW.Orchard.Conditions.ContentId
+		Description: Adds a condition to Orchard that allows checking against the items content id
+		Category: Scripting
+		Dependencies: Orchard.Conditions
